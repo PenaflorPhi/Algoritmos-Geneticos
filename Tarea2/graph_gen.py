@@ -21,7 +21,4 @@ plt.title("Evolución de la aptitud en el algoritmo genético")
 plt.legend()
 plt.grid(True)
 
-# Save the figure before showing it
 plt.savefig("evolucion_aptitud.png", dpi=300, bbox_inches="tight")
-
-plt.show()
